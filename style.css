@@ -1,0 +1,19 @@
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell;}
+
+form{
+    padding-left: 800px;
+    padding-top: 100px;
+    line-height: 50px;
+}
+input{
+    border-radius: 20px;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+}
